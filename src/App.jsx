@@ -8,7 +8,7 @@ function App() {
 
   const [current, setCurrent] = useState(0);
   const [isActive, setIsActive] = useState(false);
-  const [status, setStatus] = useState('🧨 👆Start Click ');
+  const [status, setStatus] = useState('Start Click ');
   const intervalRef = useRef(null);
   const blobUrlRef = useRef(null);
 
